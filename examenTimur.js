@@ -3,5 +3,6 @@ function contains(arr, pred) {
         if (typeof pred == 'function' && pred(arr[i], i, arr) || arr[i] === elem) {
             arr.push ()
         }
+        return 
     }
 console.log();
