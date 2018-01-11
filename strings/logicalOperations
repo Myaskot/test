@@ -1,0 +1,4 @@
+// === - equal
+// !== - isn't
+// && - both must be 1
+// || -  logical 'or'

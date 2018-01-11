@@ -1,0 +1,29 @@
+function foo(a) {
+return a
+}
+console.log(foo("YES"));
+console.log(typeof foo);
+const dude = {
+  name: "Artem",
+  age: 18,
+  gender: "male",
+};
+dude.age = 20;
+console.log(dude.age);
+var b;
+var a = 10;
+for (b = 5; b < a; b++) {
+  console.log(b);
+}
+
+var e = 10;
+while (e > 0) {
+  e--;
+  console.log(e);
+}
+do {
+  console.log(e++)
+} while (e < 20)
+var myName = "Thomas";
+var myCity = "Budapest";
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
